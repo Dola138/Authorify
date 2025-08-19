@@ -23,7 +23,7 @@ export default function MyArticles({ articles, currentPage, setCurrentPage }) {
         striped
         hover
         responsive
-        style={{ backgroundColor: "#e0f7fa" }} 
+        style={{ backgroundColor: "#59c5d3ff" }} 
       >
         <thead>
           <tr>
