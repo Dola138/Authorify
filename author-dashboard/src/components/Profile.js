@@ -19,7 +19,9 @@ export default function Profile() {
           className="rounded-circle border border-3 shadow"
           style={{ width: "140px", height: "140px", objectFit: "cover" }}
         />
-        <h2 className="mt-3">Ismat Jahan Dola</h2>
+        
+         <h2 className="mt-3">Ismat Jahan Dola (UI Update)</h2>
+
         <p className="text-muted mb-1">dola.cse.20230104138@aust.edu</p>
         <p className="text-secondary">Joined on: 15th June 2025</p>
       </div>
