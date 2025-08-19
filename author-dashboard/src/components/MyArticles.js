@@ -11,10 +11,21 @@ export default function MyArticles({ articles, currentPage, setCurrentPage }) {
   );
 
   return (
-    <div className="card p-4 shadow-sm" style={{ borderRadius: "15px" }}>
+    <div
+      className="card p-4 shadow-sm"
+      style={{
+        borderRadius: "15px",
+        backgroundColor: "#e0f7fa" 
+      }}
+    >
       <h3 className="mb-3">My Articles</h3>
-      <Table striped hover responsive>
-        <thead style={{ backgroundColor: "#CDC5FC" }}>
+      <Table
+        striped
+        hover
+        responsive
+        style={{ backgroundColor: "#e0f7fa" }} 
+      >
+        <thead>
           <tr>
             <th>#</th>
             <th>Title</th>
