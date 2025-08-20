@@ -15,7 +15,7 @@ export default function MyArticles({ articles, currentPage, setCurrentPage }) {
       className="card p-4 shadow-sm"
       style={{
         borderRadius: "15px",
-        backgroundColor: "#e0f7fa" 
+        backgroundColor: "#a7ace0ff" 
       }}
     >
       <h3 className="mb-3">My Articles</h3>
@@ -23,7 +23,7 @@ export default function MyArticles({ articles, currentPage, setCurrentPage }) {
         striped
         hover
         responsive
-        style={{ backgroundColor: "#59c5d3ff" }} 
+        style={{ backgroundColor: "#9ceaf5ff" }} 
       >
         <thead>
           <tr>
