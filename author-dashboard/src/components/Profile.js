@@ -9,7 +9,7 @@ export default function Profile() {
         maxWidth: "600px",
         margin: "auto",
         borderRadius: "20px",
-        background: "linear-gradient(135deg, #CDC5FC, #E0B0FF)",
+        background: "linear-gradient(135deg, #cfc7f9ff, #a16bd8ff)",
       }}
     >
       <div className="d-flex flex-column align-items-center text-center">
@@ -20,7 +20,7 @@ export default function Profile() {
           style={{ width: "140px", height: "140px", objectFit: "cover" }}
         />
         
-         <h2 className="mt-3">Ismat Jahan Dola (UI Update)</h2>
+         <h2 className="mt-3">Ismat Jahan Dola</h2>
 
         <p className="text-muted mb-1">dola.cse.20230104138@aust.edu</p>
         <p className="text-secondary">Joined on: 15th June 2025</p>

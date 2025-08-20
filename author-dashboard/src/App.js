@@ -38,7 +38,7 @@ export default function App() {
         setActivePage={setActivePage}
       />
 
-      <div className="flex-grow-1 p-4" style={{ backgroundColor: "#E0B0FF" }}>
+      <div className="flex-grow-1 p-4" style={{ backgroundColor: "#9c8ccdff" }}>
         {activePage === "profile" && <Profile />}
         {activePage === "articles" && (
           <MyArticles
