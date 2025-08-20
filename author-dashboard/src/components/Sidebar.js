@@ -7,7 +7,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen, activePage, setAc
       className="d-flex flex-column text-white"
       style={{
         width: sidebarOpen ? "220px" : "60px",
-        background: "#CFBADE",
+        background: "#3e2d8395",
         transition: "0.3s",
       }}
     >
@@ -23,7 +23,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen, activePage, setAc
           onClick={() => setActivePage("profile")}
           className="btn w-100 text-start my-1"
           style={{
-            backgroundColor: activePage === "profile" ? "#CDC5FC" : "#CFBADE",
+            backgroundColor: activePage === "profile" ? "#CDC5FC" : "#9aa0e1ff",
             color: "#343a40",
           }}
         >
